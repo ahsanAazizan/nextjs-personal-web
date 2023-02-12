@@ -17,7 +17,7 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
-export const Div1 = styled.div`
+export const LogoGrid = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: row;
@@ -26,15 +26,16 @@ export const Div1 = styled.div`
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
-export const Div2 = styled.div`
+export const ButtonsGrid = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
+  margin-top: 8px;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
 `;
-export const Div3 = styled.div`
+export const SocialsGrid = styled.div`
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
   justify-content: space-around;
@@ -46,15 +47,16 @@ export const Div3 = styled.div`
 `;
 
 // Navigation Links
-export const NavLink = styled.a`
+export const NavButton = styled.a`
   font-size: 2rem;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
-  transition: 0.4s ease;
+  transition: 0.4s ease-in-out;
   &:hover {
     color: #fff;
     opacity: 1;
     cursor: pointer;
+    font-weight: bold;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
