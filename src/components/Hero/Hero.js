@@ -11,7 +11,7 @@ const Hero = (props) => (
         <SectionTitle main center>
         <p>
           Welcome To <br />
-            <span style={{ color: "#71cfe0" }}>Ahsan</span>'s Personal Web.
+          Ahsan's Personal Web.
           </p>
         </SectionTitle>
         <SectionText>

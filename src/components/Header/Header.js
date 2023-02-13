@@ -9,8 +9,8 @@ const Header = () =>  (
   <Container>
     <LogoGrid>
       <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color:"white", fontSize:"2.5rem", fontWeight:"bold" }}>
-          <DiCssdeck size="5rem" /> <span style={{ marginLeft:"5px"}}>ahsanAazizan</span>
+        <a style={{ display: 'flex', alignItems: 'center', color:"white", fontSize:"1.5rem", fontWeight:"bold" }}>
+          <DiCssdeck size="5rem" /> <span style={{ marginRight:"10px"}}>tripleA</span>
         </a>
       </Link>
     </LogoGrid>
@@ -27,7 +27,7 @@ const Header = () =>  (
       </li>
       <li>
         <Link href="#tech">
-          <NavButton>Technologies</NavButton>
+          <NavButton>Techs</NavButton>
         </Link>
       </li>        
     </ButtonsGrid>
