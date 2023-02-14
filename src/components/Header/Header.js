@@ -21,8 +21,8 @@ const Header = () =>  (
         </Link>
       </li>        
       <li style={{ marginRight:"8px"}}>
-        <Link href="#projects">
-          <NavButton>Projects</NavButton>
+        <Link href="#works">
+          <NavButton>Works</NavButton>
         </Link>
       </li>
       <li>
