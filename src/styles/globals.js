@@ -9,6 +9,14 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
   }
+  div,
+  input,
+  textarea,
+  button,
+  select,
+  a {
+      -webkit-tap-highlight-color: transparent;
+  }
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
