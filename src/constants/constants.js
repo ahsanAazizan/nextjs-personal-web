@@ -26,7 +26,7 @@ export const projects = [
   },
   {
     title: 'Flasharing',
-    description: "File sharing web-app that encrypt your shared file(Optional) and generate a link to download that shared file.",
+    description: "File sharing Web Application(Web-App) is a web-app that can share and encrypt your shared file(Optional) and generate a link to download that shared file. This web-app was made using NodeJS.",
     image: '/images/4.png',
     tags: ['EJS', 'ExpressJS', 'MongoDB', 'NodeJS'],
     source: 'https://github.com/ahsanAazizan/flasharing',
