@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: grid;
+  background: ${props => props.theme.colors.background1};
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
@@ -11,6 +12,7 @@ export const Container = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
+    margin-bottom: 3rem;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 60px);
     grid-column-gap: 0.5rem;
@@ -67,7 +69,6 @@ export const NavButton = styled.a`
 export const ContactDropDown = styled.button`
   border: none;
   display: flex;
-  position: relative;
   background: none;
   font-size: 1.7rem;
 
